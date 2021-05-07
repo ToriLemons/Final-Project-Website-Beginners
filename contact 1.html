@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS folder/style-contact1.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#contact">Contact</a></li>
+    
+        </ul> 
+    </nav>
+
+    <header>
+        <h1>&lt; Contact Page </h1>
+    </header>
+
+
+    <div class="left">
+        <article>
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <br>
+
+                    <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <br>
+
+                    <label for="interest">What Were You Looking For?</label>
+                        <select id="interest" name="Interested In">
+                            <option value="Item Questions">Item Questions</option>
+                            <option value="Business Info">Business Info</option>
+                            <option value="Commissions">Commissions!</option>
+                            <option value="Comments">Comments</option>
+                        </select>
+                    <br>
+                
+                    <label for="subject">Questions/Comments</label>
+                        <br><textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:100%;"></textarea>
+                    <br>
+
+                    <label for="button">Want to say hi?</label>
+                    <button onclick="alert('Hello!')">Click me</button>
+                    <br>
+
+                    <input type="submit" value="  Submit  ">
+                
+                </form>
+            </div>
+        </article>
+    </div>
+
+    <aside class="right">&lt; aside </aside>
+    
+</body>
+<footer>&lt; footer </footer>
+</html>

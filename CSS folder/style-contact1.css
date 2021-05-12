@@ -1,13 +1,5 @@
 @import url('./style-home1.css');
 
-.column {
-    background-color: aqua;
-    float: left;
-    height: 300px;
-    width: 33%;
-}
-
-
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -27,7 +19,7 @@ article {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(69, 76, 26);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -36,7 +28,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: rgb(69, 76, 26);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -45,7 +37,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(0, 25, 48);
   }
 
   input[type=button] {
@@ -54,6 +46,17 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: rgb(255, 232, 192);
     padding: 20px;
+  }
+
+  aside {
+    height: 500px;
+  }
+
+  #mapembed {
+    height: 400px;
+    width: 100%;
+    padding-left: 9px;
+    border: none;
   }

@@ -42,16 +42,16 @@ input[type=text], select, textarea {
 
   input[type=button] {
     box-sizing: border-box;
+
   }
   
   .container {
     border-radius: 5px;
     background-color: rgb(255, 232, 192);
     padding: 20px;
-  }
-
-  aside {
-    height: 500px;
+    font-size: 20px;
+    font-family: 'newsreader', serif;
+    color: ;
   }
 
   #mapembed {
@@ -60,3 +60,4 @@ input[type=text], select, textarea {
     padding-left: 9px;
     border: none;
   }
+

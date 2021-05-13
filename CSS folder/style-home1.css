@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Newsreader:ital,wght@0,200;1,300&family=Playfair+Display:ital@0;1&display=swap');
+
 header {
     border: 2px groove rgb(227, 160, 22);
     height: 150px;
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 100px;
+    text-align: left;
     clear: both;
-    background-image: url(https://live.staticflickr.com/2233/2234937811_4a74d9eba8_b.jpg) alt="Hand Craft";
 }
 
 body {
@@ -38,7 +41,7 @@ aside {
     padding-bottom: 15px;
     padding-left: 5px;
     margin: 25px;
-    height: 400px;
+    height: fit-content;
     width: 33%;
 }
 
@@ -92,6 +95,8 @@ div {
 a  {
     color: rgb(227, 160, 22);
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'newsreader', serif;
 }
 
 a:hover {
@@ -119,19 +124,46 @@ a:hover {
     padding: 25px;
 }
 
+#heroimg {
+    height: 400px;
+    background-image: url(../PhotoFolder/IMG-4707.jpg);
+    background-size: cover;
+}
+
 /* font fixing */
 h1 {
-    font: 500px;
+    font-size: 50px;
+    font-family: 'playfair display', serif;
+    color: rgb(255, 232, 192);
+    text-shadow: 4px 0px rgb(0, 25, 48);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#header2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    text-shadow: 3px 0px rgb(0, 25, 48);
 }
 
 h2 {
-
+    font-size: 30px;
+    font-family: 'antic slab', serif;
+    color: rgb(255, 232, 192);
 }
 
 h3 {
-    font: 20px;
+    font-size: 20px;
     margin: 10px;
     padding-top: 40px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Newsreader', serif
+    color: rgb(255, 232, 192);
 }
 
 

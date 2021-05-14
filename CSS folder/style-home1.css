@@ -158,11 +158,16 @@ h3 {
     font-size: 20px;
     margin: 10px;
     padding-top: 40px;
+    color: rgb(161, 96, 38);
 }
 
 p {
-    font-size: 20px;
-    font-family: 'Newsreader', serif
+    font-size: 17px;
+    font-family: 'playfair display', serif;
+    color: black;
+}
+
+.copyright {
     color: rgb(255, 232, 192);
 }
 
